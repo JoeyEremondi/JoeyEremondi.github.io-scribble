@@ -23,3 +23,5 @@
 (define/contract (clean)
   (-> any)
   (void))
+
+(current-uri-prefix "/personal-page")
