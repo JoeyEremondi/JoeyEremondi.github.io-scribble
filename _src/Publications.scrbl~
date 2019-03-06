@@ -1,6 +1,0 @@
-#lang scribble/manual
-@require["bib.rkt"]
-
-Publications go 
-
-@(generate-bib)

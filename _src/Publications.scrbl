@@ -2,8 +2,8 @@
 @require["bib.rkt"]
 
 Publications go here
-
-@(define (allcites) (for-each
+ 
+@(define (allcites) (for-each 
                 (lambda (x) (~cite x))
                    mycites))
 
