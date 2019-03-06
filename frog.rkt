@@ -24,4 +24,4 @@
   (-> any)
   (void))
 
-(current-uri-prefix "/personal-page")
+;;(current-uri-prefix "/personal-page")

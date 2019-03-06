@@ -1,2 +1,7 @@
 http://eremondi.com/2012/01/a-2012-blog-post.html
-http://eremondi.com/personal-page/About.html
+http://eremondi.com/Software.html
+http://eremondi.com/Research.html
+http://eremondi.com/Publications.html
+http://eremondi.com/Contact.html
+http://eremondi.com/Archives.html
+http://eremondi.com/About.html

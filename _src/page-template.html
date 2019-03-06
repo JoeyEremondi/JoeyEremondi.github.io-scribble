@@ -33,7 +33,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container">
 
-      <a href="@|uri-prefix|/index.html" class="navbar-brand">My Blog Brand</a>
+      <a href="@|uri-prefix|/index.html" class="navbar-brand">Joey Eremondi</a>
 
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
               data-target="#navbar_collapse" aria-controls="navbar_collapse"
@@ -73,6 +73,11 @@
             </li>
 
             @ni[(string-append uri-prefix "/About.html") "About"]
+            @ni[(string-append uri-prefix "/Publications.html") "Publications"]
+            @ni[(string-append uri-prefix "/Research.html") "Research"]
+            @ni[(string-append uri-prefix "/Software.html") "Software"]
+            @ni[(string-append uri-prefix "/Archives.html") "Archives"]
+            @ni[(string-append uri-prefix "/Contact.html") "Contact"]
 
             <li class="nav-item">
               <a class="nav-link" href="@|atom-feed-uri|">Atom</a>
