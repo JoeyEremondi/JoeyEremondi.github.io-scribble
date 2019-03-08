@@ -2,7 +2,8 @@
 #lang racket
  (require (for-syntax racket/syntax))
 (require scriblib/autobib scriblib/bibtex)
-(provide all-pubs makecite)
+(require (for-syntax scriblib/bibtex))
+(provide all-pubs)
 (provide (all-from-out scriblib/bibtex scriblib/autobib))
 (require scribble/core)
 
@@ -32,32 +33,27 @@
 
 
 
-(define-syntax (makecite stx)
-  (syntax-case stx () 
-  [(_ bib-file  sec-title)
+(define-for-syntax (makecite bib-file sec-title)
    (let [
          (~cite (generate-temporary '~cite))
          (citet (generate-temporary 'citet))
          (generate-bib (generate-temporary 'generate-bib))
          ]
      #`(begin
-         (define-bibtex-cite-unsrt bib-file #,~cite #,citet #,generate-bib #:spaces 1 #:style number-style  )
-         (let* ([bibdb (bibdb-raw (path->bibdb bib-file))]
+         (define-bibtex-cite-unsrt #,bib-file #,~cite #,citet #,generate-bib #:spaces 1 #:style number-style  )
+         (let* ([bibdb (bibdb-raw (path->bibdb #,bib-file))]
                [unsorted-cites (dret "unsorted " (hash-keys bibdb))]
                [mycites (dret "sorted " (sort  unsorted-cites (key-lt bibdb)))]
                )
-         (list (for-each #,~cite mycites)   (#,generate-bib #:sec-title sec-title #:tag sec-title))
+         (list (for-each #,~cite mycites)   (#,generate-bib #:sec-title #,sec-title #:tag #,sec-title))
          )
      )
-     )
-   ]
-  
-  ))
+     ))
 
-(define-syntax-rule (all-pubs)
-  (begin
-  (makecite "_src/journal_papers.bib"  "Journal Papers")
-  (makecite "_src/conf_papers.bib"  "Conference Papers")
+(define-syntax (all-pubs stx)
+  #`(begin
+  #,(makecite "_src/journal_papers.bib"  "Journal Papers")
+  #,(makecite "_src/conf_papers.bib"  "Conference Papers")
   ;(makecite "_src/conf_versions.bib"  "Conference Versions of Journal Papers Papers")
   
   ))
