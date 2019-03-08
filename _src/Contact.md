@@ -1,12 +1,7 @@
----
-title: Contact
-layout: page
-category: endpage
----
+#Contact
 
-There are several ways to get in touch with me:
+Email: `joey@(mylastname).com`.
 
-Email: you can contact me at joey@(my last name all lower case).com.
 
 [LinkedIn](http://ca.linkedin.com/in/jeremondi)
 
