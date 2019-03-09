@@ -24,4 +24,6 @@
   (-> any)
   (void))
 
-;;(current-uri-prefix "/personal-page")
+;(current-uri-prefix "/blog")
+
+(current-posts-index-uri "/all-posts.html")

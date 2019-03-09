@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Academic Homepage: Academic Homepage</title>
  <link rel="self" href="http://eremondi.com/feeds/all.atom.xml" />
- <link href="http://eremondi.com/index.html" />
- <id>urn:http-eremondi-com:-index-html</id>
+ <link href="http://eremondi.com/all-posts.html" />
+ <id>urn:http-eremondi-com:-all-posts-html</id>
  <updated>2012-01-01T08:00:00Z</updated>
  <entry>
   <title type="text">A 2012 blog post</title>
