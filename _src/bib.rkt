@@ -1,23 +1,25 @@
 
 #lang racket
- (require (for-syntax racket/syntax))
+(require (for-syntax racket/syntax))
 (require scriblib/autobib scriblib/bibtex)
 (require (for-syntax scriblib/bibtex))
 (provide all-pubs)
 (provide (all-from-out scriblib/bibtex scriblib/autobib))
 (require scribble/core)
+(require (for-syntax racket/list))
+(require scribble/base)
 
 ;(define (do-phony-cites cite-list)
 ;   (for-each ~cite cite-list)) 
-(define (key-lt thehash) (lambda (key1 key2)
-                        (<
-                         (string->number  (hash-ref (hash-ref thehash key1) "year"))
-                         (string->number  (hash-ref (hash-ref thehash key2) "year")))))
+(define-for-syntax (year-lt key1 key2)
+                           (>
+                            (string->number  key1)
+                            (string->number  key2)))
 
 (define (reverse-part p) (begin
                            (display (part-blocks p))
                            (struct-copy part p [blocks (reverse (part-blocks p))
-                                                                  ])))
+                                                       ])))
 
 (define (dret y x) (begin (displayln y) (displayln x) x))
 
@@ -31,31 +33,45 @@
       ~cite-id citet-id)))
 
 
-
+(define (smaller-n n x)
+  (if (= n 0) x (smaller (smaller-n (- n 1) x)))
+  )
 
 (define-for-syntax (makecite bib-file sec-title)
-   (let* [
+  (let* [
          [thebibdb (bibdb-raw (path->bibdb bib-file))]
          [mycites (hash-keys thebibdb)]
-         (years 0)
-         (~cite (generate-temporary '~cite))
-         (citet (generate-temporary 'citet))
-         (generate-bib (generate-temporary 'generate-bib))
-         ]
-     #`(begin
-         (define-bibtex-cite-unsrt #,bib-file #,~cite #,citet #,generate-bib #:spaces 1 #:style number-style  )
-         (list  (for-each #,~cite (list #,@mycites))    (#,generate-bib #:sec-title #,sec-title #:tag #,sec-title)
+         [years (remove-duplicates (sort (hash-map thebibdb (lambda (k v) (hash-ref v "year"))) year-lt))]
+         [year-cites (map (lambda (y)
+                            (cons y (filter-map (lambda (pr)
+                                          (and (equal? y (hash-ref (cdr pr) "year")) (car pr) ) )
+                                        (hash->list thebibdb) )))
+                          years)]
+         (bib-for-year
+          (lambda (pr)
+            (let* ([y (car pr)]
+                  [yearcites (cdr pr)]
+                  (~cite (generate-temporary '~cite))
+                  (citet (generate-temporary 'citet))
+                  (section-title (if (equal? y (first years)) #`(smaller-n 2 (list #,sec-title (linebreak) (smaller-n 2 #,y) )) #`(smaller-n 4 #,y) ) )
+                  (generate-bib (generate-temporary 'generate-bib)))
+          #`(begin
+              (define-bibtex-cite-unsrt #,bib-file #,~cite #,citet #,generate-bib #:spaces 1 #:disambiguate (lambda (x) "")  )
+              (list  (for-each #,~cite (list #,@yearcites))    (#,generate-bib #:sec-title #,section-title #:tag (string-append #,y #,sec-title))
          
-     )
-     )))
+                     )
+              ))))
+         ] ;;end let
+    #`(begin #,@(map bib-for-year year-cites))
+    ))
 
-(define-syntax (all-pubs stx)
-  #`(begin
-  #,(makecite "_src/journal_papers.bib"  "Journal Papers")
-  #,(makecite "_src/conf_papers.bib"  "Conference Papers")
-  ;(makecite "_src/conf_versions.bib"  "Conference Versions of Journal Papers Papers")
-  ))
+  (define-syntax (all-pubs stx)
+    #`(begin
+        #,(makecite "_src/journal_papers.bib"  "Journal Papers")
+        #,(makecite "_src/conf_papers.bib"  "Conference Papers")
+        ;#,(makecite "_src/conf_versions.bib"  "Conference Versions of Journal Papers Papers")
+        ))
 
 
-;(define mycites (hash-keys (bibdb-raw (path->bibdb "_src/mypubs.bib"))))
-;(displayln mycites)
+  ;(define mycites (hash-keys (bibdb-raw (path->bibdb "_src/mypubs.bib"))))
+  ;(displayln mycites)
