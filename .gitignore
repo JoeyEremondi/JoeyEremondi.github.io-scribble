@@ -1,2 +1,4 @@
 *.scrbl~
 *.rkt~
+_src/compiled
+.frog
