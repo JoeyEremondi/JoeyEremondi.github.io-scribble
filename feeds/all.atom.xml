@@ -4,13 +4,25 @@
  <link rel="self" href="http://eremondi.com/feeds/all.atom.xml" />
  <link href="http://eremondi.com/index.html" />
  <id>urn:http-eremondi-com:-index-html</id>
- <updated>2019-03-26T06:16:08Z</updated>
+ <updated>2019-01-25T07:32:39Z</updated>
+ <entry>
+  <title type="text">Paper published: Improving errors for Dependent Types</title>
+  <link rel="alternate" href="http://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-eremondi-com:-2019-01-paper-published-improving-errors-for-dependent-types-html</id>
+  <published>2019-01-25T07:32:39Z</published>
+  <updated>2019-01-25T07:32:39Z</updated>
+  <author>
+   <name>Joey Eremondi</name></author>
+  <content type="html">
+&lt;p&gt;The paper version of my Master&amp;rsquo;s thesis is now live! You can read the open access article &lt;a href="https://www.degruyter.com/view/j/comp.2019.9.issue-1/comp-2019-0001/comp-2019-0001.xml?format=INT"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The paper talks about ways to represent higher order unification for dependent types as constraint graphs.  With this format, heuristics can be used to locate errors, and can identify when multiple locations are involved in a single error.&lt;/p&gt;</content></entry>
  <entry>
   <title type="text">VSCode Plugin for Ott</title>
-  <link rel="alternate" href="http://eremondi.com/2019/03/vscode-plugin-for-ott.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-eremondi-com:-2019-03-vscode-plugin-for-ott-html</id>
-  <published>2019-03-26T06:16:08Z</published>
-  <updated>2019-03-26T06:16:08Z</updated>
+  <link rel="alternate" href="http://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-eremondi-com:-2018-02-vscode-plugin-for-ott-html</id>
+  <published>2018-02-03T07:16:08Z</published>
+  <updated>2018-02-03T07:16:08Z</updated>
   <author>
    <name>Joey Eremondi</name></author>
   <content type="html">
@@ -36,18 +48,4 @@
 
 &lt;p&gt;Suggestions or Pull requests are welcome!&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.&lt;/p&gt;</content></entry>
- <entry>
-  <title type="text">A 2012 blog post</title>
-  <link rel="alternate" href="http://eremondi.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-eremondi-com:-2012-01-a-2012-blog-post-html</id>
-  <published>2012-01-01T08:00:00Z</published>
-  <updated>2012-01-01T08:00:00Z</updated>
-  <author>
-   <name>Joey Eremondi</name></author>
-  <content type="html">
-&lt;p&gt;Here is an example blog post.&lt;/p&gt;
-
-&lt;p&gt;Everything after this paragraph &amp;ldquo;after the break&amp;rdquo;. On index pages and Atom feeds, it will become &amp;ldquo;Continue reading&amp;hellip;&amp;rdquo;, if you configure them to include only the summary &amp;ldquo;blurb&amp;rdquo; before the break.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;some code&lt;/code&gt;&lt;/pre&gt;&lt;a href="http://eremondi.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+&lt;p&gt;If you&amp;rsquo;re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.&lt;/p&gt;</content></entry></feed>

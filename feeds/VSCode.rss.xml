@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Academic Homepage: Posts tagged 'VSCode'</title>
+  <description>Academic Homepage: Posts tagged 'VSCode'</description>
+  <link>http://eremondi.com/tags/VSCode.html</link>
+  <lastBuildDate>Sat, 03 Feb 2018 07:16:08 UT</lastBuildDate>
+  <pubDate>Sat, 03 Feb 2018 07:16:08 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>VSCode Plugin for Ott</title>
+   <link>http://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=VSCode&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-eremondi-com:-2018-02-vscode-plugin-for-ott-html</guid>
+   <pubDate>Sat, 03 Feb 2018 07:16:08 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;I&amp;rsquo;ve made a package that integrates the &lt;a href="http://www.cl.cam.ac.uk/~pes20/ott/"&gt;Ott Semantic Modeling tool&lt;/a&gt; into Visual Studio Code. Right now, it supports syntax highlighting, and showing error messages inline, but I hope to eventually add support for source formatting, and prettifying symbols.&lt;/p&gt;
+
+&lt;p&gt;You can view the package &lt;a href="https://marketplace.visualstudio.com/items?itemName=JoeyEremondi.ott"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pull requests, collaboration, suggestions are all welcome!&lt;/p&gt;</description></item></channel></rss>

@@ -2,3 +2,4 @@
 *.rkt~
 _src/compiled/*
 .frog
+*.bak

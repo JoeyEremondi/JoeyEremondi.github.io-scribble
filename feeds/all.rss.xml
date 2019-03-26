@@ -4,14 +4,24 @@
   <title>Academic Homepage: Academic Homepage</title>
   <description>Academic Homepage: Academic Homepage</description>
   <link>http://eremondi.com/index.html</link>
-  <lastBuildDate>Tue, 26 Mar 2019 06:16:08 UT</lastBuildDate>
-  <pubDate>Tue, 26 Mar 2019 06:16:08 UT</pubDate>
+  <lastBuildDate>Fri, 25 Jan 2019 07:32:39 UT</lastBuildDate>
+  <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
   <ttl>1800</ttl>
   <item>
+   <title>Paper published: Improving errors for Dependent Types</title>
+   <link>http://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-eremondi-com:-2019-01-paper-published-improving-errors-for-dependent-types-html</guid>
+   <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;The paper version of my Master&amp;rsquo;s thesis is now live! You can read the open access article &lt;a href="https://www.degruyter.com/view/j/comp.2019.9.issue-1/comp-2019-0001/comp-2019-0001.xml?format=INT"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The paper talks about ways to represent higher order unification for dependent types as constraint graphs.  With this format, heuristics can be used to locate errors, and can identify when multiple locations are involved in a single error.&lt;/p&gt;</description></item>
+  <item>
    <title>VSCode Plugin for Ott</title>
-   <link>http://eremondi.com/2019/03/vscode-plugin-for-ott.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-eremondi-com:-2019-03-vscode-plugin-for-ott-html</guid>
-   <pubDate>Tue, 26 Mar 2019 06:16:08 UT</pubDate>
+   <link>http://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-eremondi-com:-2018-02-vscode-plugin-for-ott-html</guid>
+   <pubDate>Sat, 03 Feb 2018 07:16:08 UT</pubDate>
    <author>Joey Eremondi</author>
    <description>
 &lt;p&gt;I&amp;rsquo;ve made a package that integrates the &lt;a href="http://www.cl.cam.ac.uk/~pes20/ott/"&gt;Ott Semantic Modeling tool&lt;/a&gt; into Visual Studio Code. Right now, it supports syntax highlighting, and showing error messages inline, but I hope to eventually add support for source formatting, and prettifying symbols.&lt;/p&gt;
@@ -34,16 +44,4 @@
 
 &lt;p&gt;Suggestions or Pull requests are welcome!&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.&lt;/p&gt;</description></item>
-  <item>
-   <title>A 2012 blog post</title>
-   <link>http://eremondi.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-eremondi-com:-2012-01-a-2012-blog-post-html</guid>
-   <pubDate>Sun, 01 Jan 2012 08:00:00 UT</pubDate>
-   <author>Joey Eremondi</author>
-   <description>
-&lt;p&gt;Here is an example blog post.&lt;/p&gt;
-
-&lt;p&gt;Everything after this paragraph &amp;ldquo;after the break&amp;rdquo;. On index pages and Atom feeds, it will become &amp;ldquo;Continue reading&amp;hellip;&amp;rdquo;, if you configure them to include only the summary &amp;ldquo;blurb&amp;rdquo; before the break.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;some code&lt;/code&gt;&lt;/pre&gt;&lt;a href="http://eremondi.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
+&lt;p&gt;If you&amp;rsquo;re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.&lt;/p&gt;</description></item></channel></rss>

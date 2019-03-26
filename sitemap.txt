@@ -1,6 +1,6 @@
-http://eremondi.com/2019/03/vscode-plugin-for-ott.html
-http://eremondi.com/2012/01/a-2012-blog-post.html
+http://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html
 http://eremondi.com/2017/12/ubc-beamer-theme.html
+http://eremondi.com/2018/02/vscode-plugin-for-ott.html
 http://eremondi.com/Software.html
 http://eremondi.com/Publications.html
 http://eremondi.com/Contact.html

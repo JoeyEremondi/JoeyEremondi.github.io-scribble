@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Academic Homepage: Posts tagged 'Ott'</title>
+ <link rel="self" href="http://eremondi.com/feeds/Ott.atom.xml" />
+ <link href="http://eremondi.com/tags/Ott.html" />
+ <id>urn:http-eremondi-com:-tags-Ott-html</id>
+ <updated>2018-02-03T07:16:08Z</updated>
+ <entry>
+  <title type="text">VSCode Plugin for Ott</title>
+  <link rel="alternate" href="http://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=Ott&amp;utm_medium=Atom" />
+  <id>urn:http-eremondi-com:-2018-02-vscode-plugin-for-ott-html</id>
+  <published>2018-02-03T07:16:08Z</published>
+  <updated>2018-02-03T07:16:08Z</updated>
+  <author>
+   <name>Joey Eremondi</name></author>
+  <content type="html">
+&lt;p&gt;I&amp;rsquo;ve made a package that integrates the &lt;a href="http://www.cl.cam.ac.uk/~pes20/ott/"&gt;Ott Semantic Modeling tool&lt;/a&gt; into Visual Studio Code. Right now, it supports syntax highlighting, and showing error messages inline, but I hope to eventually add support for source formatting, and prettifying symbols.&lt;/p&gt;
+
+&lt;p&gt;You can view the package &lt;a href="https://marketplace.visualstudio.com/items?itemName=JoeyEremondi.ott"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pull requests, collaboration, suggestions are all welcome!&lt;/p&gt;</content></entry></feed>

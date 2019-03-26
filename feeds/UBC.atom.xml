@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Academic Homepage: Posts tagged 'UBC'</title>
+ <link rel="self" href="http://eremondi.com/feeds/UBC.atom.xml" />
+ <link href="http://eremondi.com/tags/UBC.html" />
+ <id>urn:http-eremondi-com:-tags-UBC-html</id>
+ <updated>2017-12-29T07:06:22Z</updated>
+ <entry>
+  <title type="text">UBC Beamer Theme</title>
+  <link rel="alternate" href="http://eremondi.com/2017/12/ubc-beamer-theme.html?utm_source=UBC&amp;utm_medium=Atom" />
+  <id>urn:http-eremondi-com:-2017-12-ubc-beamer-theme-html</id>
+  <published>2017-12-29T07:06:22Z</published>
+  <updated>2017-12-29T07:06:22Z</updated>
+  <author>
+   <name>Joey Eremondi</name></author>
+  <content type="html">
+&lt;p&gt;I recently had to make a LaTeX slideshow, and was disappointed with how awful most of the themes looked. I found the Metropolis theme, which was quite nice and modern, and I adapted it to have the UBC colours and logo.&lt;/p&gt;
+
+&lt;p&gt;You can see it live on &lt;a href="https://www.overleaf.com/read/zqngzmyspphw"&gt;Overleaf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Or you can see the code on &lt;a href="https://github.com/JoeyEremondi/UBC-Metropolis-Beamer"&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Suggestions or Pull requests are welcome!&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.&lt;/p&gt;</content></entry></feed>

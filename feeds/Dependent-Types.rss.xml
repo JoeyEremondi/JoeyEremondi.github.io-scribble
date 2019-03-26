@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Academic Homepage: Posts tagged 'Dependent Types'</title>
+  <description>Academic Homepage: Posts tagged 'Dependent Types'</description>
+  <link>http://eremondi.com/tags/Dependent-Types.html</link>
+  <lastBuildDate>Fri, 25 Jan 2019 07:32:39 UT</lastBuildDate>
+  <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Paper published: Improving errors for Dependent Types</title>
+   <link>http://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html?utm_source=Dependent-Types&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-eremondi-com:-2019-01-paper-published-improving-errors-for-dependent-types-html</guid>
+   <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;The paper version of my Master&amp;rsquo;s thesis is now live! You can read the open access article &lt;a href="https://www.degruyter.com/view/j/comp.2019.9.issue-1/comp-2019-0001/comp-2019-0001.xml?format=INT"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The paper talks about ways to represent higher order unification for dependent types as constraint graphs.  With this format, heuristics can be used to locate errors, and can identify when multiple locations are involved in a single error.&lt;/p&gt;</description></item></channel></rss>
