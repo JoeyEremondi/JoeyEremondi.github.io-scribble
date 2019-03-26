@@ -64,10 +64,9 @@
             The pairs are in the format '((name . url) ...) }
 
             @(define (craft-tag-links listof-pairs)
-            @list{<a class="dropdown-item" href="/all-posts.html">All Posts</a>
             @(map (lambda (pair)
             @list{<a class="dropdown-item" href="@(cdr pair)">@(car pair)</a>})
-            listof-pairs)})
+            listof-pairs))
 
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -109,7 +108,20 @@
       <div id="content" class="col-md-9">
         @;{ To put something only on the home page, check for
         @uri-path being "/index.html" }
-        
+        @(when (string-ci=? uri-path
+        (string-append uri-prefix
+        "/index.html"))
+        @list{
+        <p>I'm Joseph (Joey) Eremondi, a PhD student working with <a href="https://www.cs.ubc.ca/~rxg/">Ron Garcia</a>
+          at the <a href="https://spl.cs.ubc.ca/">UBC Software Practices Laboratory</a>.
+        </p>
+        <p>
+          My research is centred around type systems for making code more reliable, and in the theory and practice of
+          making
+          such systems easier to use. In particular, I'm interested in mixing dependent types with gradual types and
+          improving error messages for dependently-typed languages.
+          I've also researched the properties of reversal-bounded counter automata.
+        </p> })
         @;{ Index pages for posts have @tag that's not #f }
         @(when tag
         @list{<h1>Posts tagged <em>@|tag|</em></h1>})
@@ -122,7 +134,6 @@
           <img src="http://www.gravatar.com/avatar/867246e58f9345661b506537b626766e?s=200" align="middle" class="img-rounded" />
 
           <p>Joey Eremondi, PhD Student</p>
-          <p>Email: <tt>joey@"@"(mylastname).com</tt></p>.
         </div>
         <div class="sidebar-module text-center">
           <script>
