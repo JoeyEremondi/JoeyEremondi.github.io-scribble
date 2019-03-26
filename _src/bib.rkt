@@ -69,7 +69,8 @@
     #`(begin
         #,(makecite "_src/journal_papers.bib"  "Journal Papers")
         #,(makecite "_src/conf_papers.bib"  "Conference Papers")
-        ;#,(makecite "_src/conf_versions.bib"  "Conference Versions of Journal Papers Papers")
+        #,(makecite "_src/conf_versions.bib"  "Conference Versions of Journal Papers")
+        ;;; #,(makecite "_src/theses.bib"  "Theses")
         ))
 
 
