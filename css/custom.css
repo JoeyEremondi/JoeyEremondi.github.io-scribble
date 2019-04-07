@@ -32,7 +32,7 @@ article img {
 }
 .sidebar-module-inset {
   padding: 15px;
-  background-color: #f5f5f5;
+  background-color: #444;
   border-radius: 4px;
 }
 .sidebar-module-inset p:last-child,
