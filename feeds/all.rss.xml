@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Academic Homepage: Academic Homepage</title>
-  <description>Academic Homepage: Academic Homepage</description>
-  <link>http://eremondi.com/index.html</link>
+  <title>Joey Eremondi - PhD Student: Joey Eremondi - PhD Student</title>
+  <description>Joey Eremondi - PhD Student: Joey Eremondi - PhD Student</description>
+  <link>https://eremondi.com/index.html</link>
   <lastBuildDate>Fri, 25 Jan 2019 07:32:39 UT</lastBuildDate>
   <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Paper published: Improving errors for Dependent Types</title>
-   <link>http://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-eremondi-com:-2019-01-paper-published-improving-errors-for-dependent-types-html</guid>
+   <link>https://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2019-01-paper-published-improving-errors-for-dependent-types-html</guid>
    <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
    <author>Joey Eremondi</author>
    <description>
@@ -19,8 +19,8 @@
 &lt;p&gt;The paper talks about ways to represent higher order unification for dependent types as constraint graphs.  With this format, heuristics can be used to locate errors, and can identify when multiple locations are involved in a single error.&lt;/p&gt;</description></item>
   <item>
    <title>VSCode Plugin for Ott</title>
-   <link>http://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-eremondi-com:-2018-02-vscode-plugin-for-ott-html</guid>
+   <link>https://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2018-02-vscode-plugin-for-ott-html</guid>
    <pubDate>Sat, 03 Feb 2018 07:16:08 UT</pubDate>
    <author>Joey Eremondi</author>
    <description>
@@ -31,8 +31,8 @@
 &lt;p&gt;Pull requests, collaboration, suggestions are all welcome!&lt;/p&gt;</description></item>
   <item>
    <title>UBC Beamer Theme</title>
-   <link>http://eremondi.com/2017/12/ubc-beamer-theme.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-eremondi-com:-2017-12-ubc-beamer-theme-html</guid>
+   <link>https://eremondi.com/2017/12/ubc-beamer-theme.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2017-12-ubc-beamer-theme-html</guid>
    <pubDate>Fri, 29 Dec 2017 07:06:22 UT</pubDate>
    <author>Joey Eremondi</author>
    <description>

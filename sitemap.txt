@@ -1,7 +1,7 @@
-http://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html
-http://eremondi.com/2017/12/ubc-beamer-theme.html
-http://eremondi.com/2018/02/vscode-plugin-for-ott.html
-http://eremondi.com/Software.html
-http://eremondi.com/Publications.html
-http://eremondi.com/Contact.html
-http://eremondi.com/Archives.html
+https://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html
+https://eremondi.com/2017/12/ubc-beamer-theme.html
+https://eremondi.com/2018/02/vscode-plugin-for-ott.html
+https://eremondi.com/Software.html
+https://eremondi.com/Publications.html
+https://eremondi.com/Contact.html
+https://eremondi.com/Archives.html

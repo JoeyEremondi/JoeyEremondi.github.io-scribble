@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Academic Homepage: Posts tagged 'VSCode'</title>
- <link rel="self" href="http://eremondi.com/feeds/VSCode.atom.xml" />
- <link href="http://eremondi.com/tags/VSCode.html" />
- <id>urn:http-eremondi-com:-tags-VSCode-html</id>
+ <title type="text">Joey Eremondi - PhD Student: Posts tagged 'VSCode'</title>
+ <link rel="self" href="https://eremondi.com/feeds/VSCode.atom.xml" />
+ <link href="https://eremondi.com/tags/VSCode.html" />
+ <id>urn:https-eremondi-com:-tags-VSCode-html</id>
  <updated>2018-02-03T07:16:08Z</updated>
  <entry>
   <title type="text">VSCode Plugin for Ott</title>
-  <link rel="alternate" href="http://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=VSCode&amp;utm_medium=Atom" />
-  <id>urn:http-eremondi-com:-2018-02-vscode-plugin-for-ott-html</id>
+  <link rel="alternate" href="https://eremondi.com/2018/02/vscode-plugin-for-ott.html?utm_source=VSCode&amp;utm_medium=Atom" />
+  <id>urn:https-eremondi-com:-2018-02-vscode-plugin-for-ott-html</id>
   <published>2018-02-03T07:16:08Z</published>
   <updated>2018-02-03T07:16:08Z</updated>
   <author>

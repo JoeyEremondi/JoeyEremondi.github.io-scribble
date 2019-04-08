@@ -4,8 +4,8 @@
 ;; in frog/params.
 (define/contract (init)
   (-> any)
-  (current-scheme/host "http://eremondi.com")
-  (current-title "Academic Homepage")
+  (current-scheme/host "https://eremondi.com")
+  (current-title "Joey Eremondi - PhD Student")
   (current-author "Joey Eremondi"))
 
 ;; Called once per post and non-post page, on the contents.

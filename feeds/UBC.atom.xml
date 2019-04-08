@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Academic Homepage: Posts tagged 'UBC'</title>
- <link rel="self" href="http://eremondi.com/feeds/UBC.atom.xml" />
- <link href="http://eremondi.com/tags/UBC.html" />
- <id>urn:http-eremondi-com:-tags-UBC-html</id>
+ <title type="text">Joey Eremondi - PhD Student: Posts tagged 'UBC'</title>
+ <link rel="self" href="https://eremondi.com/feeds/UBC.atom.xml" />
+ <link href="https://eremondi.com/tags/UBC.html" />
+ <id>urn:https-eremondi-com:-tags-UBC-html</id>
  <updated>2017-12-29T07:06:22Z</updated>
  <entry>
   <title type="text">UBC Beamer Theme</title>
-  <link rel="alternate" href="http://eremondi.com/2017/12/ubc-beamer-theme.html?utm_source=UBC&amp;utm_medium=Atom" />
-  <id>urn:http-eremondi-com:-2017-12-ubc-beamer-theme-html</id>
+  <link rel="alternate" href="https://eremondi.com/2017/12/ubc-beamer-theme.html?utm_source=UBC&amp;utm_medium=Atom" />
+  <id>urn:https-eremondi-com:-2017-12-ubc-beamer-theme-html</id>
   <published>2017-12-29T07:06:22Z</published>
   <updated>2017-12-29T07:06:22Z</updated>
   <author>
