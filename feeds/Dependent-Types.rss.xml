@@ -4,9 +4,19 @@
   <title>Joey Eremondi - PhD Student: Posts tagged 'Dependent Types'</title>
   <description>Joey Eremondi - PhD Student: Posts tagged 'Dependent Types'</description>
   <link>https://eremondi.com/tags/Dependent-Types.html</link>
-  <lastBuildDate>Fri, 25 Jan 2019 07:32:39 UT</lastBuildDate>
-  <pubDate>Fri, 25 Jan 2019 07:32:39 UT</pubDate>
+  <lastBuildDate>Tue, 02 Jul 2019 23:23:21 UT</lastBuildDate>
+  <pubDate>Tue, 02 Jul 2019 23:23:21 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>ICFP Preprint Now Avaliable!</title>
+   <link>https://eremondi.com/2019/07/icfp-preprint-now-avaliable.html?utm_source=Dependent-Types&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2019-07-icfp-preprint-now-avaliable-html</guid>
+   <pubDate>Tue, 02 Jul 2019 23:23:21 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;My paper &amp;ldquo;Approximate Normalization for Gradual Dependent Types&amp;rdquo;, with Éric Tanter and Ron Garcia, was accepted to ICFP! The &lt;a href="https://arxiv.org/abs/1906.06469"&gt;preprint is now available on Arxiv&lt;/a&gt;. Feel free to send me comments or questions on the paper.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m currently working on extending the calculus from that paper into a fully usable language, which I&amp;rsquo;ve named &lt;a href="https://github.com/dudley-lang/"&gt;Dudley&lt;/a&gt;. Stay tuned for more updates on this development!&lt;/p&gt;&lt;a href="https://eremondi.com/2019/07/icfp-preprint-now-avaliable.html?utm_source=Dependent-Types&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
   <item>
    <title>Paper published: Improving errors for Dependent Types</title>
    <link>https://eremondi.com/2019/01/paper-published-improving-errors-for-dependent-types.html?utm_source=Dependent-Types&amp;utm_medium=RSS</link>
