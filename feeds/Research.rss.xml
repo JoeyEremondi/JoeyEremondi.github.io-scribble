@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Joey Eremondi - PhD Student: Posts tagged 'Research'</title>
+  <description>Joey Eremondi - PhD Student: Posts tagged 'Research'</description>
+  <link>https://eremondi.com/tags/Research.html</link>
+  <lastBuildDate>Tue, 02 Jul 2019 23:23:21 UT</lastBuildDate>
+  <pubDate>Tue, 02 Jul 2019 23:23:21 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>ICFP Preprint Now Avaliable!</title>
+   <link>https://eremondi.com/2019/07/icfp-preprint-now-avaliable.html?utm_source=Research&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2019-07-icfp-preprint-now-avaliable-html</guid>
+   <pubDate>Tue, 02 Jul 2019 23:23:21 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;My paper &amp;ldquo;Approximate Normalization for Gradual Dependent Types&amp;rdquo;, with Éric Tanter and Ron Garcia, was accepted to ICFP! The &lt;a href="https://arxiv.org/abs/1906.06469"&gt;preprint is now available on Arxiv&lt;/a&gt;. Feel free to send me comments or questions on the paper.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m currently working on extending the calculus from that paper into a fully usable language, which I&amp;rsquo;ve named &lt;a href="https://github.com/dudley-lang/"&gt;Dudley&lt;/a&gt;. Stay tuned for more updates on this development!&lt;/p&gt;&lt;a href="https://eremondi.com/2019/07/icfp-preprint-now-avaliable.html?utm_source=Research&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
+  <item>
+   <title>TFP Preprint on Arxiv</title>
+   <link>https://eremondi.com/2019/06/tfp-preprint-on-arxiv.html?utm_source=Research&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2019-06-tfp-preprint-on-arxiv-html</guid>
+   <pubDate>Tue, 11 Jun 2019 18:28:35 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;I&amp;rsquo;ll be giving a talk entitled &amp;ldquo;Set Constraints, Pattern Match Analysis, and SMT&amp;rdquo; at TFP 2019 in Vancouver! It&amp;rsquo;s based on a draft paper, which can be found on &lt;a href="https://arxiv.org/abs/1905.09423"&gt;arxiv&lt;/a&gt;. You can also view &lt;a href="https://eremondi.com/pdf/TFP19_slides.pdf"&gt;the slides&lt;/a&gt; for the talk.&lt;/p&gt;&lt;a href="https://eremondi.com/2019/06/tfp-preprint-on-arxiv.html?utm_source=Research&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>

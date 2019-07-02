@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Joey Eremondi - PhD Student: Posts tagged 'Program Analysis'</title>
+  <description>Joey Eremondi - PhD Student: Posts tagged 'Program Analysis'</description>
+  <link>https://eremondi.com/tags/Program-Analysis.html</link>
+  <lastBuildDate>Tue, 11 Jun 2019 18:28:35 UT</lastBuildDate>
+  <pubDate>Tue, 11 Jun 2019 18:28:35 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>TFP Preprint on Arxiv</title>
+   <link>https://eremondi.com/2019/06/tfp-preprint-on-arxiv.html?utm_source=Program-Analysis&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-eremondi-com:-2019-06-tfp-preprint-on-arxiv-html</guid>
+   <pubDate>Tue, 11 Jun 2019 18:28:35 UT</pubDate>
+   <author>Joey Eremondi</author>
+   <description>
+&lt;p&gt;I&amp;rsquo;ll be giving a talk entitled &amp;ldquo;Set Constraints, Pattern Match Analysis, and SMT&amp;rdquo; at TFP 2019 in Vancouver! It&amp;rsquo;s based on a draft paper, which can be found on &lt;a href="https://arxiv.org/abs/1905.09423"&gt;arxiv&lt;/a&gt;. You can also view &lt;a href="https://eremondi.com/pdf/TFP19_slides.pdf"&gt;the slides&lt;/a&gt; for the talk.&lt;/p&gt;&lt;a href="https://eremondi.com/2019/06/tfp-preprint-on-arxiv.html?utm_source=Program-Analysis&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
